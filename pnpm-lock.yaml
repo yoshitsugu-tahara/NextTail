@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@types/node': 17.0.31
+  '@types/node': 24.13.6
   '@types/react': 18.0.17
   autoprefixer: 10.4.8
   next: 12.2.5
@@ -17,7 +17,7 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
 
 devDependencies:
-  '@types/node': 17.0.31
+  '@types/node': 24.13.6
   '@types/react': 18.0.17
   autoprefixer: 10.4.8_postcss@8.4.14
   postcss: 8.4.14
@@ -174,8 +174,10 @@ packages:
       tslib: 2.4.0
     dev: false
 
-  /@types/node/17.0.31:
-    resolution: {integrity: sha512-AR0x5HbXGqkEx9CadRH3EBYx/VkiUgZIhP4wvPn/+5KIsgpNoyFaRlVe0Zlx9gRtg8fA06a9tskE2MSN7TcG4Q==}
+  /@types/node/24.13.6:
+    resolution: {integrity: sha512-SGrw/h3KPFshy3OE6ZL53LMBG5vGQQ8/gIpiqz/kRZhPJ7HgwCEs8LBuNtWLa8dvGZVpSF7+Bf+c11HUrCb/yg==}
+    dependencies:
+      undici-types: 7.18.2
     dev: true
 
   /@types/prop-types/15.7.5:
@@ -754,6 +756,10 @@ packages:
     resolution: {integrity: sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==}
     engines: {node: '>=4.2.0'}
     hasBin: true
+    dev: true
+
+  /undici-types/7.18.2:
+    resolution: {integrity: sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==}
     dev: true
 
   /update-browserslist-db/1.0.5_browserslist@4.21.3:
